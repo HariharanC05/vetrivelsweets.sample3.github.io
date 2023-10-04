@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vetrivel Sweets and Savouries</title>
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!-- Jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Custome CSS -->
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+  <!-- Webpage-Starts -->
+
+  <!-- Navbar Starts -->
+
+  <div id="home" class="navbar">
+    <div class="logo">
+      <div class="logo-img"></div><!-- <img src="" alt="Logo" /> -->
+    </div>
+    <div class="brand-name">Vetrivel Sweets and Savouries</div>
+    <p class="caption">Taste the Deligits</p>
+    <div class="nav-items">
+      <ul>
+        <li><a id="active-element-nav" href="index.html">Home</a></li>
+        <li><a href="HTML/sweets.html">Sweets</a></li>
+        <li><a href="HTML/savouries.html">Savouries</a></li>
+        <li><a href="HTML/savouries.html">Services</a></li>
+        <li><a href="HTML/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Navbar Ends -->
+
+  <!-- Carousel Starts -->
+
+  <div id="carouselExampleCaptions custom-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" data-interval="1500">
+      <div class="carousel-item active">
+        <img class="slide-img img-fluid" src="Asserts/Carousel img/Vetrivel sweets and savouries Kala jamun slide-1.jpg"
+          class="d-block w-100" alt="..." />
+        <div class="flex">
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+            <h5>First slide label</h5>
+            <p>
+              Some representative placeholder content for the first slide.
+            </p>
+            <a class="order-btn" href="HTML/sweets.html">Order online</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="slide-img img-fluid" src="Asserts/Carousel img/Vetrivel sweets and savouries Kajukatli slide-2.jpg"
+          class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+          <a class="order-btn" href="HTML/sweets.html">Order online</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="slide-img img-fluid" src="Asserts/Carousel img/Vetrivel sweets and savouries rasmalai slide-3.jpg"
+          class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <a class="order-btn" href="HTML/sweets.html">Order online</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+
+  <!-- Carousel Ends -->
+
+  <!-- Sweets section Starts -->
+
+  <div class="section-tittle">
+    <h1>Sweets</h1>
+  </div>
+
+  <div class="container container-fluid">
+    <!-- First row Starts -->
+    <div id="first-row" class="row row-spacing">
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <!-- First row Ends -->
+    <!-- see more button Button -->
+    <div class="see-more">
+      <a href="../HTML/sweets.html" class="see-more-btn">see more <i class="fa-solid fa-angles-right"
+          style="color: #fe0000;"></i></a>
+    </div>
+  </div>
+
+  <!-- Sweets section Ends -->
+
+  <!-- Savouri section starts -->
+
+  <div class="section-tittle">
+    <h1>Savouries</h1>
+  </div>
+
+  <div class="container container-fluid">
+    <!-- First row Starts -->
+    <div id="first-row" class="row row-spacing">
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <!-- First row Ends -->
+    <!-- see more button Button -->
+    <div class="see-more">
+      <a href="../HTML/savouries.html" class="see-more-btn">see more <i class="fa-solid fa-angles-right"
+          style="color: #fe0000;"></i></a>
+    </div>
+  </div>
+
+  <!-- Savouri section ends -->
+
+  <!-- Services Page Starts -->
+
+  <div class="section-tittle">
+    <h1>Services</h1>
+  </div>
+
+  <div class="container container-fluid">
+    <!-- First row Starts -->
+    <div id="first-row" class="row row-spacing">
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="col-sm col-md-4 col-lg-3 my-2">
+        <div class="inner-row-elements">
+          <!-- Product Image -->
+          <img src="Asserts/Sweets img/Vetri Vel sweets Rasmalai-square.jpg" alt="" />
+          <!-- Product Name -->
+          <p class="product-name">Product name goes here</p>
+          <!-- Order Now Button -->
+          <a href="" class="add-to-cart">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <!-- First row Ends -->
+    <!-- see more button Button -->
+    <div class="see-more">
+      <a href="HTML/Services.html" class="see-more-btn">see more <i class="fa-solid fa-angles-right"
+          style="color: #fe0000;"></i></a>
+    </div>
+  </div>
+
+  <!-- Services Page Ends -->
+
+  <!-- Testimonial Section starts -->
+
+  <div class="section-tittle">
+    <h1>Testimonial</h1>
+  </div>
+  <!-- First review -->
+  <div class="container container-fluid">
+    <div id="first-row" class="row row-spacing">
+      <div class="col-sm col-md-6 col-lg-4 my-2">
+        <div class="inner-row-elements">
+          <div class="review-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, commodi.Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Aliquid, commodi.</p>
+          </div>
+          <div class="review-img">
+            <div class="img-review"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Second review -->
+      <div class="col-sm col-md-6 col-lg-4 my-2">
+        <div class="inner-row-elements">
+          <div class="review-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, commodi.Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Aliquid, commodi.</p>
+          </div>
+          <div class="review-img">
+            <div class="img-review"></div>
+          </div>
+        </div>
+      </div>
+      <!-- third review -->
+      <div class="col-sm col-md-6 col-lg-4 my-2">
+        <div class="inner-row-elements">
+          <div class="review-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, commodi.Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Aliquid, commodi.</p>
+          </div>
+          <div class="review-img">
+            <div class="img-review"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- Testimonial Section ends -->
+
+  <div class="about-top-hr">
+    <hr>
+  </div>
+  <!-- Footer starts -->
+
+  <footer class="footer">
+    <div class="container container-fluid">
+      <div class="footer-inner-elements">
+        <div class="content-left">
+          <div class="footer-heading">
+            <p>About Us</p>
+          </div>
+          <div class="footer-caption">
+            <p>Taste the deligits</p>
+          </div>
+          <div class="footer-about-text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rem earum dolore aliquam doloremque
+              quibusdam reiciendis rerum! Natus, autem neque.</p>
+          </div>
+          <div class="footer-logo"></div>
+        </div>
+        <div class="content-center">
+          <div class="footer-heading">
+            <p>Get-in touch with us</p>
+          </div>
+          <div class="list-of-links">
+            <ul>
+              <li><i class="fa-brands fa-whatsapp" style="color: #000000;"></i> <a href="">Whatsapp</a></li>
+              <li><i class="fa-brands fa-instagram" style="color: #000000;"></i> <a href="">Instagram</a></li>
+              <li><i class="fa-brands fa-facebook" style="color: #000000;"></i> <a href="">Facebook</a></li>
+              <li><i class="fa-solid fa-envelope" style="color: #000000;"></i> <a href="">G-mail</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="footer-text-content">
+            <p>Please contact us at if you haven't heard anything about your order after ordering it.</p>
+          </div>
+          <div class="footer-mobile-number">
+            <p>Contact :8472939092</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Footer Ends -->
+  <hr>
+
+  <!-- Copyright section Starts -->
+  <footer class="footer mt-auto py-3 copyright-content">
+    <div class="container">
+      <span class="text-muted">&copy; All Copyrights reserved to Vetrivel Sweets and Savouries</span>
+      <span class="text-muted promoting-text">Developed by <a
+          href="https://www.instagram.com/hariharan_webdev/">Hariharan C</a></span>
+    </div>
+  </footer>
+  <!-- Copyright section Ends -->
+
+  <!-- Go to top button Button -->
+  <div class="go-up-button">
+    <a href="#home" class="go-up-btn"><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></a>
+  </div>
+  <!-- Webpage-Ends -->
+  <!-- Custom JS -->
+  <script src="JS/script.js"></script>
+</body>
+
+</html>

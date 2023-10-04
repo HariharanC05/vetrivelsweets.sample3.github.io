@@ -1,0 +1,598 @@
+/* Importing Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Niconne&family=Poppins:wght@100;200;400;600;700;800;900&family=Tangerine:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+/* Custom Scrollbar */
+
+/* Works on Firefox, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Works on Chrome, Edge, and Safari */
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Works on Internet Explorer and older versions of Edge */
+
+::-ms-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+::-ms-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-ms-scrollbar-track {
+  background: transparent;
+}
+
+/* Hero section */
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  padding: 10px;
+}
+
+#active-element-nav {
+  color: #FE0000 !important;
+}
+
+/* .logo img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+} */
+
+.logo-img {
+  background: #222;
+  height: 50px;
+  width: 50px;
+}
+
+.brand-name {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'Courgette';
+}
+
+.caption {
+  font-family: 'Courgette';
+}
+
+.nav-items ul {
+  list-style: none;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-items li {
+  margin: 0 10px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+/* Add styles for hover, active, etc. as needed */
+.nav-items a:hover {
+  color: #FE0000;
+}
+
+
+
+/* Carousel */
+
+#carouselExampleInterval {
+  width: 100%;
+}
+
+#custom-carousel {
+  width: 1440px;
+  height: 488px;
+}
+
+#custom-carousel .carousel-item {
+  width: 100%; 
+  height: 100%; 
+}
+
+#custom-carousel .carousel-item img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent;
+  border: none;
+}
+
+.cover {
+  background-size: cover;
+}
+
+/* Sweets Section */
+
+.section-tittle h1 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  margin: 70px 0 20px 0;
+}
+
+#first-row {
+  margin-top: 50px;
+}
+
+.row-spacing {
+  margin: 10px 0 20px 0;
+}
+
+.inner-row-elements {
+  margin: 2px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.inner-row-elements:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.inner-row-elements img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.order-btn {
+  font-size: 18px;
+  background: #FE0000;
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+}
+
+.order-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.add-to-cart {
+  font-size: 14px;
+  background: #FE0000;
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.add-to-cart:hover {
+  color: #fff;
+  text-decoration: none;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 40px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.see-more {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.see-more-btn {
+  justify-content: flex-end;
+  margin-left: auto;
+  color: #FE0000;
+  text-decoration: none;
+}
+
+.see-more-btn:hover {
+  color: #FE0000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Fixed go up button */
+.go-up-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #FE0000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.go-up-btn {
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.review-text {
+  border-radius: 0 10px 10px 10px;
+  margin: 30px 20px 20px 30px;
+  padding: 50px 10px 10px 50px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.review-img {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  background-color: #FE0000;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.img-review {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: #222;
+}
+
+.about-top-hr hr {
+  margin-top: 100px;
+}
+
+.footer-inner-elements {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-left {
+  justify-content: flex-start;
+  width: 30%;
+  padding: 30px;
+}
+
+.footer-heading p {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 700;
+  margin: 70px 0 20px 0;
+}
+
+.footer-caption p {
+  font-size: 14px;
+}
+
+.footer-about-text p {
+  font-size: 13px;
+}
+
+.footer-logo {
+  height: 100px;
+  width: 100px;
+  background: #888;
+}
+
+.content-center {
+  width: 30%;
+  padding: 30px;
+  align-items: center;
+}
+
+.list-of-links ul {
+  list-style: none;
+}
+
+.list-of-links ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.list-of-links ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.list-of-links ul li a:hover {
+  color: #FE0000;
+}
+
+.content-right {
+  width: 40%;
+  padding: 30px;
+  justify-content: flex-end;
+  margin: 70px 0 20px 0;
+  text-align: right;
+}
+
+.footer-mobile-number {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.copyright-content {
+  background: #000;
+}
+
+.promoting-text {
+  font-size: 10px;
+  position: absolute;
+  right: 150px;
+  margin: 5px;
+}
+
+.promoting-text a {
+  text-decoration: none;
+  color: #888;
+}
+
+.promoting-text a:hover {
+  text-decoration: none;
+}
+
+/* ---------------------------- Sweets Page Starts ----------------------------------------------------------- */
+
+.all-items-tittle h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 50px 0 20px 0;
+  text-align: left;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-details {
+  flex: 2;
+}
+
+.product-details h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.product-price {
+  flex: 1;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.add-to-cart-btn {
+  background-color: #FE0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #FE0000;
+}
+
+/* --------------------------------------- Services page ---------------------------------------------------- */
+
+.service-1,
+.service-2 {
+  height: 300px;
+  width: 100%;
+  background: #555;
+  margin-bottom: 10px;
+}
+
+.services-tittle h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0 60px 0;
+}
+
+.service-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-3 {
+  height: 400px;
+  width: 80%;
+  background: #555;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --------------------------------------- Contact Page -------------------------------------------- */
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.contact-info div {
+  text-align: center;
+}
+
+.icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-tittle {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+/* -------------------------------------- Add to cart --------------------------------------------- */
+
+
+
+
+/* -------------------------------------- Media Queries ------------------------------------------- */
+
+@media (max-width:480px) {
+  .footer-inner-elements{
+    display: flex;
+    flex-direction: column;
+  }
+  .content-left {
+    width: 100%;
+    margin: 0;
+  }
+  .content-right {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+  }
+  .content-center {
+    width: 100%;
+    margin: 0;
+  }
+  .copyright-content {
+    background: #000;
+    font-size: 14px;
+  }
+  .promoting-text {
+    font-size: 12px;
+    position: absolute;
+    right: 90px;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 801px) {
+  .promoting-text {
+    font-size: 12px;
+    position: absolute;
+    right: 50px;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .product-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .product-price {
+    text-align: right;
+    margin-left: auto;
+  }
+  .add-to-cart-btn{
+    margin-left: auto;
+  }
+}
+
+@media (max-width:480px) {
+  .carousel-captio h5{
+    font-size: 14px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+    margin: 0;
+  }
+  .order-btn {
+    font-size: 10px;
+    margin: 0;
+  }
+}
